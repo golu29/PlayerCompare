@@ -1,9 +1,9 @@
 #Copare Players Stats
-Name <- c("Amla", "Kohli", "AB de Villiers")
+Name <- c("Amla", "Kohli", "ABD")
 age <- c(34, 29, 32)
 matches <- c(158, 202, 225)
-cf <- c("26/34", "32/45", "25/53")
+c_f <- c("26/34", "32/45", "25/53")
 # data frame for players record
 records_df <- data.frame(Name, age, matches, cf)
-print("records_df")
+print(records_df)
 
